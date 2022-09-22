@@ -1,4 +1,5 @@
 import * as React from 'react';
+import "./Button.css";
 
 type ButtonStyle = {
   [property: string]: string;
