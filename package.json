@@ -1,26 +1,42 @@
 {
   "name": "mono-rcl",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Mono React Components Library",
-  "main": "index.js",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "rollup": "rollup -c"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MohamedGamal-Dev/mono-rcl.git"
   },
-  "author": "",
+  "author": "Mohamed Gamal",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MohamedGamal-Dev/mono-rcl/issues"
   },
   "homepage": "https://github.com/MohamedGamal-Dev/mono-rcl#readme",
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.2",
+    "@rollup/plugin-node-resolve": "^14.1.0",
+    "@rollup/plugin-typescript": "^8.5.0",
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
+    "@types/rollup-plugin-peer-deps-external": "^2.2.1",
+    "postcss": "^8.4.16",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "rollup": "^2.79.1",
+    "rollup-plugin-dts": "^4.2.2",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.34.0",
     "styled-components": "^5.3.5",
     "typescript": "^4.8.3"
   }
