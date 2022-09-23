@@ -1,6 +1,6 @@
 {
   "name": "mono-rcl",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Mono React Components Library",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -11,7 +11,8 @@
   "scripts": {
     "rollup": "rollup -c",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,9 @@
   "homepage": "https://github.com/MohamedGamal-Dev/mono-rcl#readme",
   "devDependencies": {
     "@babel/core": "^7.19.1",
+    "@babel/preset-env": "^7.19.1",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-typescript": "^7.18.6",
     "@rollup/plugin-commonjs": "^22.0.2",
     "@rollup/plugin-node-resolve": "^14.1.0",
     "@rollup/plugin-typescript": "^8.5.0",
@@ -36,11 +40,16 @@
     "@storybook/manager-webpack4": "^6.5.12",
     "@storybook/react": "^6.5.12",
     "@storybook/testing-library": "^0.0.13",
+    "@testing-library/react": "^13.4.0",
+    "@types/jest": "^29.0.3",
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
     "@types/rollup-plugin-peer-deps-external": "^2.2.1",
     "@types/styled-components": "^5.1.26",
+    "babel-jest": "^29.0.3",
     "babel-loader": "^8.2.5",
+    "jest": "^29.0.3",
+    "jest-environment-jsdom": "^29.0.3",
     "postcss": "^8.4.16",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -60,6 +69,5 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "styled-components": "^5.3.5"
-  },
-  "dependencies": {}
+  }
 }
