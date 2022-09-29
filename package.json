@@ -1,6 +1,6 @@
 {
   "name": "mono-rcl",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "description": "Mono React Components Library",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",

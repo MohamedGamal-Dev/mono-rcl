@@ -1,0 +1,36 @@
+.button {
+  font-family: Helvetica, sans-serif;
+  font-weight: 700;
+  line-height: 1;
+  display: inline-block;
+  border: 0;
+  border-radius: 3em;
+  cursor: pointer;
+}
+
+.button--default {
+  color: #ffffff;
+  background-color: #16213e;
+}
+.button--secondary {
+  color: #16213e;
+  background-color: transparent;
+  box-shadow: rgba(22, 33, 62, 1) 0px 0px 0px 2px inset;
+}
+.button--danger {
+  color: #16213e;
+  background-color: #e94560;
+}
+
+.button--small {
+  font-size: 14px;
+  padding: 0.8em 1.25em;
+}
+.button--medium {
+  font-size: 16px;
+  padding: 0.8em 1.25em;
+}
+.button--large {
+  font-size: 18px;
+  padding: 0.8em 1.25em;
+}
