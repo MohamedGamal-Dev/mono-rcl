@@ -1,6 +1,6 @@
 {
   "name": "mono-rcl",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Mono React Components Library",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -48,6 +48,7 @@
     "@types/styled-components": "^5.1.26",
     "babel-jest": "^29.0.3",
     "babel-loader": "^8.2.5",
+    "identity-obj-proxy": "^3.0.0",
     "jest": "^29.0.3",
     "jest-environment-jsdom": "^29.0.3",
     "postcss": "^8.4.16",
