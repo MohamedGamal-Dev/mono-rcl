@@ -1,7 +1,7 @@
 
 # Mono React Component library
 
-A Mono React Component library **Prototype for testing purposes**.
+A Mono React Component library ***( Prototype for testing purposes )***.
 
 ## Tech Stack
 
@@ -22,6 +22,10 @@ A Mono React Component library **Prototype for testing purposes**.
 import {Button} from 'mono-rcl'
 
 function App() {
-  return <Button label="click me" variant="secondary" onClick={(e)=>{console.log("Clicked")}} />
+  return <Button 
+    label="click me" 
+    variant="secondary" 
+    onClick={(e)=>{console.log("Clicked")}} 
+  />
 }
 ```
